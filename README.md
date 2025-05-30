@@ -11,19 +11,19 @@ Este proyecto es una pequeña aplicación de backend y frontend que permite envi
 - HTML, CSS, JavaScript
 
 ## Estructura del Proyecto
+
+```
 FORM_CONTACTO/
-│
-├── public/ # Archivos estáticos del frontend
-│ ├── css/
-│ │ └── styles.css
-│ └── js/
-│ └── script.js
-│
-├── views/ # HTML principal
-│ └── formulario.html
-│
-├── .env.example # Variables de entorno de ejemplo
-├── package.json # Configuraciones del proyecto
+├── public/                 # Archivos estáticos del frontend
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── script.js
+├── views/                  # HTML principal
+│   └── formulario.html
+├── .env.example            # Variables de entorno de ejemplo
+├── package.json            # Configuraciones del proyecto
 ├── package-lock.json
-├── server.js # Backend con Express
-└── README.md # Documentación del proyecto
+├── server.js               # Backend con Express
+└── README.md               # Documentación del proyecto
+```
